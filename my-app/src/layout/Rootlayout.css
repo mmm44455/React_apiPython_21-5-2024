@@ -1,0 +1,69 @@
+.top-nav{
+    overflow: hidden;
+    height: 50px;
+    background-color: #10afce;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Đảm bảo rằng phần tử chiếm toàn bộ chiều rộng của trình duyệt */
+    z-index: 1000;
+    display: flex;
+   
+    align-items: center; /* Canh giữa theo chiều dọc */
+}
+.page-container{
+    height: 100vh;
+}
+.page-container-1{
+    padding-top: 50px; ;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.side-nav{
+    width: 15%;
+    height: 100%;
+    background-color: rgb(210, 210, 255);
+    ul{
+        margin: 0; /* Loại bỏ khoảng trống ở đầu dòng */
+    padding: 0; 
+    }
+    ul>li{
+        list-style-type: none;
+        width: 100%;
+        padding: 15px;
+      }
+    
+}
+
+.back-link:hover{
+    background-color: rgb(251, 218, 190);
+    cursor: pointer;
+    color: rgb(254, 103, 48);
+}
+.back-link{
+    font-family: cursive;
+}
+.page-body{
+    width: 85%;
+    padding: 10px;
+    height: 100%;
+    background-color: blueviolet;
+}
+.icon-link{
+    padding-right: 10px;
+    font-size: 30px;
+}
+.loginout{
+    width: 15%;
+    height: 50px;
+    background-color: rgb(247, 64, 64);
+    position: fixed;
+    bottom: 0;
+    border: none;
+    text-align: center;
+    font-family: cursive;
+    color: white;
+    cursor: pointer;
+    padding: 0 0 0 0;
+}

@@ -1,0 +1,33 @@
+.loginFoot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.icon,.phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        padding: 0 30px;
+        width: 40px;
+        height: 40px;
+    }
+}
+.comment{
+    text-align: center;
+    p{
+        color: #f8f5f5;
+        font-size: 20px;
+        padding-left: 20px;
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+}
+.phone{
+    padding-right: 20px;
+    p{
+        font-size: 20px;
+        color: #f8f5f5;
+        font-weight: 600;
+    }
+}

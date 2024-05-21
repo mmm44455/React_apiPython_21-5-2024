@@ -1,0 +1,22 @@
+.Change-acc{
+    padding: 10px;
+    font-family: cursive;
+    color: white;
+    margin-top: 15px;
+    cursor: pointer;
+   width: 150px;
+}
+.Setting-user{
+    font-family: cursive;
+    font-size: 15px;
+    padding: 10px;
+}
+.Insertinto  {
+    margin-top: 10px;
+    padding: 5px ;
+    font-size: 20px;
+    border-radius: 5px;
+}
+form label{
+    color: white;
+}
